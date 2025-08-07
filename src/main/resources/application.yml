@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: canonical-java-be
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
